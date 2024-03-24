@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Delay Prediction</title>
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    <div class="background-container"></div> <!-- Container for background image -->
+    <div class="content-container">
+        <h1>Flight Delay Prediction</h1>
+        <form action="/predict" method="post" class="container">
+            <label for="airtime">Air Time (minutes):</label>
+            <input type="text" id="airtime" name="airtime"><br><br>
+            <label for="distance">Distance (miles):</label>
+            <input type="text" id="distance" name="distance"><br><br>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
